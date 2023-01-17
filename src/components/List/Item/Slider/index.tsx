@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { IPlace } from '../../../../classes/place';
 import IconLike from '../../../Icon/Like';
 import IconPoint from '../../../Icon/Point';
@@ -9,29 +9,40 @@ import * as SC from './style';
 
 const Slider = ({ seen, }: IPlace) => {
 
-    const [time, setTime] = useState<number>(5);
-    const [index, setIndex] = useState<number>(0);
+    const time = useRef(5);
 
-    // setInterval(() => {
+    const [index, setIndex] = useState(0);
 
-    //     if (time) {
+    useEffect(() => {
 
-    //         setTime(time - 1);
+        const i = setInterval(() => {
 
+            changeIndexByTime();
 
-    //     } else {
+        }, 250);
 
-    //         changeIndexByTime();
-    //         setTime(5);
+        return () => {
 
-    //     };
+            clearInterval(i);
 
-    // }, 1000);
+        };
+
+    }, [index]);
 
     function changeIndexByTime() {
 
-        if (index === 3) setIndex(0);
-        else setIndex(index + 1);
+        if (time.current) {
+
+            time.current--;
+
+        } else {
+
+            time.current = 5;
+
+            if (index === 3) setIndex(0);
+            else setIndex(index + 1);
+
+        };
 
     };
 
@@ -50,7 +61,7 @@ const Slider = ({ seen, }: IPlace) => {
                     {new Array(4).fill(0).map((_, ei) => <IconPoint selected={ei === index && true} key={ei} onClick={_ => {
 
                         setIndex(ei);
-                        setTime(5);
+                        time.current = 5;
 
                     }} />)}
                 </SC.WrapperIndex>

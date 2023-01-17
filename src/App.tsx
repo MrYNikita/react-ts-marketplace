@@ -14,7 +14,7 @@ import Carousel from "./components/Carousel";
 
 function App() {
 
-    const [size, setSize] = useState<number>(1);
+    const [size, setSize] = useState<number>(8);
     const [places, setPlaces] = useState<IPlace[]>([]);
 
     useEffect(() => {
@@ -57,10 +57,11 @@ function App() {
                     } else if (places.length > v) setSize(v);
 
                 }}/>
-                <Carousel></Carousel>
+                {/* <Carousel></Carousel> */}
             </WrapperMain>
         </>
     );
+
 }
 
 export default App;
