@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-ts-marketplace/static/css/main.dc999e7d.css",
-    "main.js": "/react-ts-marketplace/static/js/main.d4b98899.js",
+    "main.js": "/react-ts-marketplace/static/js/main.8de1eb0d.js",
     "static/media/1.jpg": "/react-ts-marketplace/static/media/1.4a969a86e1b96a63f565.jpg",
     "static/media/2.jpg": "/react-ts-marketplace/static/media/2.6c6e8fde3352d50cc406.jpg",
     "static/media/ubuntu-all-400-normal.woff": "/react-ts-marketplace/static/media/ubuntu-all-400-normal.8629f83ad2c45e75a914.woff",
@@ -15,10 +15,10 @@
     "static/media/ubuntu-greek-ext-400-normal.woff2": "/react-ts-marketplace/static/media/ubuntu-greek-ext-400-normal.7f5049065c02fb5e0628.woff2",
     "index.html": "/react-ts-marketplace/index.html",
     "main.dc999e7d.css.map": "/react-ts-marketplace/static/css/main.dc999e7d.css.map",
-    "main.d4b98899.js.map": "/react-ts-marketplace/static/js/main.d4b98899.js.map"
+    "main.8de1eb0d.js.map": "/react-ts-marketplace/static/js/main.8de1eb0d.js.map"
   },
   "entrypoints": [
     "static/css/main.dc999e7d.css",
-    "static/js/main.d4b98899.js"
+    "static/js/main.8de1eb0d.js"
   ]
 }
