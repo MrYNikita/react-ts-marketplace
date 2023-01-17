@@ -10,10 +10,11 @@ import "@fontsource/ubuntu"
 import './App.css';
 import More from "./components/More";
 import Loader from "./UI/Wrappers/Loader";
+import Carousel from "./components/Carousel";
 
 function App() {
 
-    const [size, setSize] = useState<number>(16);
+    const [size, setSize] = useState<number>(1);
     const [places, setPlaces] = useState<IPlace[]>([]);
 
     useEffect(() => {
@@ -56,6 +57,7 @@ function App() {
                     } else if (places.length > v) setSize(v);
 
                 }}/>
+                <Carousel></Carousel>
             </WrapperMain>
         </>
     );
