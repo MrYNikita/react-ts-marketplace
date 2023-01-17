@@ -43,5 +43,21 @@ export default createGlobalStyle`
             transform: rotate(360deg);
         }
     }
+    @keyframes escape-left {
+        from {
+            left: 0;
+        }
+        to {
+            left: -100%;
+        }
+    }
+    @keyframes escape-right {
+        from {
+            left: 0;
+        }
+        to {
+            left: 100%;
+        }
+    }
 
 `

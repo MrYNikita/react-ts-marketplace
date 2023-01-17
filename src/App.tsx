@@ -41,6 +41,8 @@ function App() {
 
     return (
         <>
+            {/* <GlobalStyle/>
+            <Carousel></Carousel> */}
             <GlobalStyle/>
             <WrapperMain>
                 <Header title="Похожие объявления"/>
@@ -57,7 +59,6 @@ function App() {
                     } else if (places.length > v) setSize(v);
 
                 }}/>
-                {/* <Carousel></Carousel> */}
             </WrapperMain>
         </>
     );

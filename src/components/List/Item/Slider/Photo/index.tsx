@@ -1,17 +1,20 @@
 import * as SC from './style';
-import p1 from "./image/1.jpg";
-import p2 from "./image/2.jpg";
-import p3 from "./image/3.jpg";
-import p4 from "./image/4.jpg";
+import { SliderContext } from '../index'
+import { useContext } from 'react';
 
-const Photo = ({ index, }: { index: number, }) => {
+const Photo = () => {
 
-    const photos = [p1, p2, p3, p4].sort(_ => Math.random() - 0.5);
+    const {
+
+        photos,
+        photoIndex,
+
+    } = useContext(SliderContext);
 
     return (
-        <SC.Photo src={photos[index]}>
+        <SC.Wrapper src={photos[photoIndex]}>
 
-        </SC.Photo>
+        </SC.Wrapper>
     );
 
 };

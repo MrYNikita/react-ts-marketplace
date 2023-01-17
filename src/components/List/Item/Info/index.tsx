@@ -9,7 +9,7 @@ const Info = ({ price, oldPrice, title, locality, date, }: IPlace) => {
 
         const d = new Date(date);
 
-        return `${new String(d.getDate()).padStart(2, '0')}.${new String(d.getMonth() + 1).padStart(2, '0')}.${d.getFullYear()}, ${new String(d.getMinutes()).padStart(2, '0')}:${new String(d.getHours()).padStart(2, '0')}`;
+        return `${new String(d.getDate()).padStart(2, '0')}.${new String(d.getMonth() + 1).padStart(2, '0')}.${d.getFullYear()}, ${new String(d.getHours()).padStart(2, '0')}:${new String(d.getMinutes()).padStart(2, '0')}`;
 
     };
     function formatPrice(price: number|undefined) {
