@@ -9,8 +9,6 @@ import { IPlace, Place } from "./classes/place";
 import "@fontsource/ubuntu"
 import './App.css';
 import More from "./components/More";
-import Loader from "./UI/Wrappers/Loader";
-import Carousel from "./components/Carousel";
 
 function App() {
 
@@ -41,8 +39,6 @@ function App() {
 
     return (
         <>
-            {/* <GlobalStyle/>
-            <Carousel></Carousel> */}
             <GlobalStyle/>
             <WrapperMain>
                 <Header title="Похожие объявления"/>

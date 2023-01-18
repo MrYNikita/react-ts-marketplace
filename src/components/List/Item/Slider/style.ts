@@ -36,6 +36,7 @@ export const WrapperPhoto = styled.div`
     height: 260px;
 
     z-index: 0;
+    overflow: hidden;
     position: relative;
 
     border-top-left-radius: 11px;
