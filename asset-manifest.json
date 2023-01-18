@@ -1,24 +1,31 @@
 {
   "files": {
-    "main.css": "/react-ts-marketplace/static/css/main.dc999e7d.css",
-    "main.js": "/react-ts-marketplace/static/js/main.7a6b5713.js",
+    "main.css": "/react-ts-marketplace/static/css/main.253d735e.css",
+    "main.js": "/react-ts-marketplace/static/js/main.9dff5070.js",
     "static/media/1.jpg": "/react-ts-marketplace/static/media/1.4a969a86e1b96a63f565.jpg",
     "static/media/2.jpg": "/react-ts-marketplace/static/media/2.6c6e8fde3352d50cc406.jpg",
     "static/media/ubuntu-all-400-normal.woff": "/react-ts-marketplace/static/media/ubuntu-all-400-normal.8629f83ad2c45e75a914.woff",
+    "static/media/ubuntu-condensed-all-400-normal.woff": "/react-ts-marketplace/static/media/ubuntu-condensed-all-400-normal.ea4b70c849f9c942f6ed.woff",
     "static/media/3.jpg": "/react-ts-marketplace/static/media/3.3514f37f2bb04ae1105c.jpg",
     "static/media/ubuntu-latin-ext-400-normal.woff2": "/react-ts-marketplace/static/media/ubuntu-latin-ext-400-normal.9967dbf10fc3cb92edfb.woff2",
+    "static/media/ubuntu-condensed-latin-ext-400-normal.woff2": "/react-ts-marketplace/static/media/ubuntu-condensed-latin-ext-400-normal.67776d4d91a0569d2397.woff2",
     "static/media/ubuntu-latin-400-normal.woff2": "/react-ts-marketplace/static/media/ubuntu-latin-400-normal.2f02effe392a63dc07a5.woff2",
     "static/media/4.jpg": "/react-ts-marketplace/static/media/4.5c51cdf769635c6e39bd.jpg",
+    "static/media/ubuntu-condensed-latin-400-normal.woff2": "/react-ts-marketplace/static/media/ubuntu-condensed-latin-400-normal.094df42b82101241a935.woff2",
     "static/media/ubuntu-cyrillic-ext-400-normal.woff2": "/react-ts-marketplace/static/media/ubuntu-cyrillic-ext-400-normal.80c010be16bde8b7e613.woff2",
     "static/media/ubuntu-cyrillic-400-normal.woff2": "/react-ts-marketplace/static/media/ubuntu-cyrillic-400-normal.5baf1f37de97e50ab654.woff2",
+    "static/media/ubuntu-condensed-cyrillic-ext-400-normal.woff2": "/react-ts-marketplace/static/media/ubuntu-condensed-cyrillic-ext-400-normal.a8422c4f59b9214099b8.woff2",
+    "static/media/ubuntu-condensed-cyrillic-400-normal.woff2": "/react-ts-marketplace/static/media/ubuntu-condensed-cyrillic-400-normal.d62bc4061d128e798a90.woff2",
     "static/media/ubuntu-greek-400-normal.woff2": "/react-ts-marketplace/static/media/ubuntu-greek-400-normal.038ee74fde7a2c872ee2.woff2",
     "static/media/ubuntu-greek-ext-400-normal.woff2": "/react-ts-marketplace/static/media/ubuntu-greek-ext-400-normal.7f5049065c02fb5e0628.woff2",
+    "static/media/ubuntu-condensed-greek-400-normal.woff2": "/react-ts-marketplace/static/media/ubuntu-condensed-greek-400-normal.cc6b2bd278edb7f616eb.woff2",
+    "static/media/ubuntu-condensed-greek-ext-400-normal.woff2": "/react-ts-marketplace/static/media/ubuntu-condensed-greek-ext-400-normal.cfd7dcab9a6138dd131a.woff2",
     "index.html": "/react-ts-marketplace/index.html",
-    "main.dc999e7d.css.map": "/react-ts-marketplace/static/css/main.dc999e7d.css.map",
-    "main.7a6b5713.js.map": "/react-ts-marketplace/static/js/main.7a6b5713.js.map"
+    "main.253d735e.css.map": "/react-ts-marketplace/static/css/main.253d735e.css.map",
+    "main.9dff5070.js.map": "/react-ts-marketplace/static/js/main.9dff5070.js.map"
   },
   "entrypoints": [
-    "static/css/main.dc999e7d.css",
-    "static/js/main.7a6b5713.js"
+    "static/css/main.253d735e.css",
+    "static/js/main.9dff5070.js"
   ]
 }
