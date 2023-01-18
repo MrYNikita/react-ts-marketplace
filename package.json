@@ -5,6 +5,7 @@
   "homepage": "https://gitname.github.io/react-ts-marketplace",
   "dependencies": {
     "@fontsource/ubuntu": "^4.5.11",
+    "@fontsource/ubuntu-condensed": "^4.5.11",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",

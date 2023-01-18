@@ -50,7 +50,7 @@ class PlaceBasic implements IPlace {
         return new PlaceBasic({
 
             id: id - 0,
-            seen: seen === 'true' ? true : false,
+            seen: seen ? true : false,
             date: date - 0,
             price: (price - 0) ?? 0,
             title: title ?? 'Название товарной позиции',

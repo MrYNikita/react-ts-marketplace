@@ -6,8 +6,9 @@ import WrapperMain from "./UI/Wrappers/Main";
 import { useEffect, useState } from "react";
 import { IPlace, Place } from "./classes/place";
 
-import "@fontsource/ubuntu"
 import './App.css';
+import "@fontsource/ubuntu"
+import "@fontsource/ubuntu-condensed"
 import More from "./components/More";
 
 function App() {
@@ -26,6 +27,8 @@ function App() {
         try {
 
             const response = await axios.get<IPlace[]>('https://6075786f0baf7c0017fa64ce.mockapi.io/products');
+
+            console.log(response.data);
 
             setPlaces(response.data.map(p => Place.parseJson(p)));
 

@@ -1,18 +1,10 @@
 import { useState, useEffect, useRef } from 'react';
-import { createContext } from 'react';
 import { IPlace } from '../../../../classes/place';
 import IconLike from '../../../Icon/Like';
 import IconPoint from '../../../Icon/Point';
 import IconStatistic from '../../../Icon/Statistic';
 import Seen from './Seen';
 import * as SC from './style';
-
-interface ISliderContext {
-
-    photos: string[],
-    photoIndex: number,
-
-};
 
 const Slider = ({ seen, photos, }: IPlace & { photos: string[] }) => {
 
